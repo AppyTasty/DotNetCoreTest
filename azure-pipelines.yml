@@ -14,10 +14,10 @@ pool:
 #    version: '2.1.300' # replace this value with the version that you need for your project  
 
 steps:
-- script: dotnet restore
-- script: dotnet build # Include additional options such as --configuration to meet your need
-- script: dotnet tool install -g dotnetsay
-- script: dotnetsay
+#- script: dotnet restore
+#- script: dotnet build # Include additional options such as --configuration to meet your need
+#- script: dotnet tool install -g dotnetsay
+#- script: dotnetsay
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
